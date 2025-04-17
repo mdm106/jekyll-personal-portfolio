@@ -1,0 +1,8 @@
+# Ignore site output and build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ignore bundled gems
+vendor/
