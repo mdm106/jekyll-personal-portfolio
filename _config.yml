@@ -23,7 +23,7 @@ email: mads.mcmahon@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Maddy McMahon Software Developer
 baseurl: "/jekyll-personal-portfolio"
-url: "https://mdm106.github.io"
+url: "https://www.maddymcmahon.com"
 
 # Build settings
 theme: minima
