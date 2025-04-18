@@ -1,0 +1,12 @@
+.icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.main-text-skills {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
