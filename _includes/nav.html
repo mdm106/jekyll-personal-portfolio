@@ -1,16 +1,16 @@
 <nav class="nav-desktop">
     <ul class="nav-list nav-list-desktop">
         <li class="nav-item{% if page.url == '/' %} active-link{% endif %}">
-            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ site.baseurl }}/">Home</a>
         </li>
         <li class="nav-item{% if page.url == '/skills/' %} active-link{% endif %}">
-            <a href="{{ '/skills/' | relative_url }}">Skills</a>
+            <a href="{{ site.baseurl }}/skills/">Skills</a>
         </li>
         <li class="nav-item{% if page.url == '/projects/' %} active-link{% endif %}">
-            <a href="{{ '/projects/' | relative_url }}">Projects</a>
+            <a href="{{ site.baseurl }}/projects/">Projects</a>
         </li>
         <li class="nav-item{% if page.url == '/contact/' %} active-link{% endif %}">
-            <a href="{{ '/contact/' | relative_url }}">Contact</a>
+            <a href="{{ site.baseurl }}/contact/">Contact</a>
         </li>
     </ul>
 </nav>
@@ -23,16 +23,16 @@
     </div>
     <ul class="nav-list-mobile">
         <li class="nav-item-mobile{% if page.url == '/' %} active-link{% endif %}">
-            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ site.baseurl }}/">Home</a>
         </li>
         <li class="nav-item-mobile{% if page.url == '/skills/' %} active-link{% endif %}">
-            <a href="{{ '/skills/' | relative_url }}">Skills</a>
+            <a href="{{ site.baseurl }}/skills/">Skills</a>
         </li>
         <li class="nav-item-mobile{% if page.url == '/projects/' %} active-link{% endif %}">
-            <a href="{{ '/projects/' | relative_url }}">Projects</a>
+            <a href="{{ site.baseurl }}/projects/">Projects</a>
         </li>
         <li class="nav-item-mobile{% if page.url == '/contact/' %} active-link{% endif %}">
-            <a href="{{ '/contact/' | relative_url }}">Contact</a>
+            <a href="{{ site.baseurl }}/contact/">Contact</a>
         </li>
     </ul>
 </nav>

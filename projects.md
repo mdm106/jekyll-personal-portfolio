@@ -9,7 +9,7 @@ permalink: /projects/
     <article class="project-article">
       <h6 class="project-title">{{ project.title }}</h6>
       {% if project.image %}
-        <img src="{{ project.image }}" alt="{{ project.image_alt }}" class="project-image">
+        <img src="{{ site.baseurl }}{{ project.image }}" alt="{{ project.image_alt }}" class="project-image">
       {% endif %}
       <p class="main-text project-skills"><strong>{{ project.skills }}</strong></p>
       <p class="main-text project-text">{{ project.paragraph_1 }}</p>

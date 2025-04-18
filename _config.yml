@@ -22,10 +22,8 @@ title: Maddy McMahon
 email: mads.mcmahon@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Maddy McMahon Software Developer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "/jekyll-personal-portfolio"
+url: "https://mdm106.github.io"
 
 # Build settings
 theme: minima
