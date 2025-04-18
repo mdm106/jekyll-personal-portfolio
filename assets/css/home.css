@@ -1,0 +1,23 @@
+.page-content, .main-image {
+    position: relative;
+}
+
+.main-image {
+    overflow: hidden;
+    width: 33%;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: .75rem;
+    border-radius: 5px;
+}
+
+.main-text {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+@media screen and (max-width: 1260px) {
+    .main-image {
+        margin-top: 0.25rem;
+    }
+}
