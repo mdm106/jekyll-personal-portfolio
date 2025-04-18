@@ -1,8 +1,48 @@
-<nav>
-    <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/skills/' | relative_url }}">Skills</a></li>
-        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+<nav class="nav-desktop">
+    <ul class="nav-list nav-list-desktop">
+        <li class="nav-item{% if page.url == '/' %} active-link{% endif %}">
+            <a href="{{ '/' | relative_url }}">Home</a>
+        </li>
+        <li class="nav-item{% if page.url == '/skills/' %} active-link{% endif %}">
+            <a href="{{ '/skills/' | relative_url }}">Skills</a>
+        </li>
+        <li class="nav-item{% if page.url == '/projects/' %} active-link{% endif %}">
+            <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        </li>
+        <li class="nav-item{% if page.url == '/contact/' %} active-link{% endif %}">
+            <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </li>
     </ul>
 </nav>
+
+<nav class="nav-mobile">
+    <div class="burger-menu" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="nav-list-mobile">
+        <li class="nav-item-mobile{% if page.url == '/' %} active-link{% endif %}">
+            <a href="{{ '/' | relative_url }}">Home</a>
+        </li>
+        <li class="nav-item-mobile{% if page.url == '/skills/' %} active-link{% endif %}">
+            <a href="{{ '/skills/' | relative_url }}">Skills</a>
+        </li>
+        <li class="nav-item-mobile{% if page.url == '/projects/' %} active-link{% endif %}">
+            <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        </li>
+        <li class="nav-item-mobile{% if page.url == '/contact/' %} active-link{% endif %}">
+            <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<script>
+    function toggleMenu() {
+        console.log('hello')
+        let navLinks = document.querySelector('.nav-list-mobile');
+        let burgerMenu = document.querySelector('.burger-menu');
+        navLinks.classList.toggle('active');
+        burgerMenu.classList.toggle('active');
+    }
+</script>

@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(193, 225, 225);
+}
+
+header, nav, main {
+    width: 66vw;
+    margin: 3rem 18vw 2rem 16vw;
+}
+
+.header, .nav-desktop {
+    font-family: 'Crimson Text', serif;
+}
+
+.header h1 {
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
