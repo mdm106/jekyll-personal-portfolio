@@ -10,3 +10,10 @@
     line-height: 1.5rem;
     text-align: center;
 }
+
+@media screen and (max-width: 700px) {
+    .icon-wrapper i:nth-child(1),
+    .icon-wrapper i:nth-child(3) {
+        display: none;
+    }
+}
