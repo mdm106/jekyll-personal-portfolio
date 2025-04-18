@@ -25,3 +25,8 @@ header, nav, main {
 .page-content {
     position: relative;
 }
+
+.main-text {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}

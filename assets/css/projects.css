@@ -1,0 +1,45 @@
+.project-article {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.project-article a {
+    text-decoration: none;
+    color: #000;
+}
+
+.project-title {
+    margin: 0 0 1.5rem;
+    font-size: 1.8rem;
+    font-family: 'Crimson Text', serif
+}
+
+.project-image {
+   width: 55%;
+   align-self: center;
+}
+
+@media screen and (max-width: 699px) {
+    .project-image {
+        width: 65%;
+    }
+}
+
+.project-skills {
+    text-align: center;
+}
+
+.project-text {
+    margin: .75em 0;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-links i {
+    padding: 1rem;
+}
